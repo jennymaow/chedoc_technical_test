@@ -1,0 +1,49 @@
+.Home {
+  min-height: 60vh;
+}
+
+.Home > .home-body {
+  display: flex;
+  padding: 2rem 4rem;
+  gap: 1.5rem;
+}
+
+.Home > .home-body > .card-home {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Home > .home-body > .card-home > .card-home-img {
+  width: 150px;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-series {
+  z-index: 1;
+}
+.Home > .home-body > .card-home > .card-home-img:hover {
+  filter: opacity(50%);
+}
+.Home > .home-body > .card-home > .card-home-img > h3 {
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.placeholder {
+  transform: scale(1);
+}
+
+.Home > .home-body > .card-home > a {
+  color: black;
+  font-weight: 500;
+  font-size: 0.9rem;
+  width: 150px;
+}

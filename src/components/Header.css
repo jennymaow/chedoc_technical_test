@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  /*   background-color: #0080ff; */
+  padding: 0.5rem 4rem;
+  align-items: center;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 12px;
+  background: rgb(0, 107, 255);
+  background: linear-gradient(0deg, rgba(0, 107, 255, 1) 0%, rgba(0, 146, 255, 1) 100%);
+  z-index: 1;
+}
+
+header > ul {
+  display: flex;
+  gap: 1.5rem;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+}
+
+header > ul > li > a {
+  color: white;
+}
+
+header > ul > li > button {
+  color: white;
+  background-color: black;
+  padding: 0.4rem 0.5rem;
+  border: none;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(60, 60, 60, 1) 100%);
+}
+
+.home-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+}

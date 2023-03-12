@@ -1,0 +1,39 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pagination > .pagenums {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pagination > .pagenums > button {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border: none;
+  font-size: 1rem;
+  color: #0092ff;
+  border-radius: 3px;
+}
+
+.pagination > button {
+  height: 35px;
+  padding: 0 0.8rem;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid #0092ff;
+  border-radius: 3px;
+  color: #0092ff;
+}
+
+.pagination > button[disabled] {
+  border: none;
+  background-color: rgb(185, 185, 185);
+  color: rgb(235, 235, 235);
+}
