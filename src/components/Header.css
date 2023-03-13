@@ -1,7 +1,6 @@
 header {
   display: flex;
   justify-content: space-between;
-  /*   background-color: #0080ff; */
   padding: 0.5rem 4rem;
   align-items: center;
   color: white;
@@ -37,4 +36,5 @@ header > ul > li > button {
   color: white;
   font-weight: 600;
   font-size: 2rem;
+  text-align: left;
 }
